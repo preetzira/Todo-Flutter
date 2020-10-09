@@ -99,10 +99,12 @@ class TodoDetailState extends State {
                               child: Text('Save',
                                   style: TextStyle(color: Colors.white)),
                               color: Colors.blueAccent,
+                              padding: EdgeInsets.all(5.0),
                               onPressed: () => save()),
                           RaisedButton(
                               child: Text('Cancel',
                                   style: TextStyle(color: Colors.black)),
+                              padding: EdgeInsets.all(5.0),
                               onPressed: () => Navigator.pop(context, true)),
                         ],
                       ))),
